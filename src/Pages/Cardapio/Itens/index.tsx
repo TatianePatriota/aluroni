@@ -43,7 +43,7 @@ export default function Itens(props: Props) {
   useEffect(() => {
     const novaLista = cardapio.filter(item => testaBusca(item.title) && testaFiltro(item.category.id));
     setLista(ordenar(novaLista));
-  },[busca, filtro, ordenador, ordenar, testaBusca, testaFiltro])
+  },[busca, filtro, ordenador])
 
 
   return (
