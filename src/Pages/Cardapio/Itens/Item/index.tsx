@@ -1,5 +1,6 @@
 import styles from "./Item.module.scss";
 import cardapio from "../itens.json";
+import classNames from "classnames";
 
 type Props = typeof cardapio[0];
 
@@ -16,7 +17,10 @@ export default function Item(props: Props) {
           <p>{description}</p>
         </div>
         <div className={styles.item__tags}>
-          <div className={styles.item__tipo}>
+          <div className={classNames({
+            [styles.item__tipo]: true,
+            [styles[`item__tipo__${category.label.toLowerCase()}`]]: true,
+          })}>
             {category.label}
           </div>
           <div className={styles.item__porcao}>
