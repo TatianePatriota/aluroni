@@ -1,7 +1,7 @@
 [
   {
     "title": "Macarrão mediterrâneo",
-    "description": "Macarrão spaghetti com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+    "description": "Macarrão spaghetti com frutos-do-mar e especiarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
     "photo": "/assets/pratos/macarrao_mediterraneo.png",
     "size": 400,
     "serving": 2,
@@ -14,7 +14,7 @@
   },
   {
     "title": "Macarrão da casa",
-    "description": "Macarrão com frutos-do-mar e especíarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
+    "description": "Macarrão com frutos-do-mar e especiarias, especialidade da cozinha. Atenção: Contém camarão e outros frutos-do-mar!",
     "photo": "/assets/pratos/macarrao_da_casa.png",
     "size": 400,
     "serving": 2,
@@ -111,6 +111,45 @@
     "serving": 3,
     "price": 120.0,
     "id": 9,
+    "category": {
+      "id": 3,
+      "label": "Combos"
+    }
+  },
+  {
+    "title": "Pizza vegana de cogumelos",
+    "description": "Pizza vegana com cogumelos, tomates salteados e cebola salteados.",
+    "photo": "/assets/pratos/pizza_vegana.png",
+    "size": 900,
+    "serving": 2,
+    "price": 79.0,
+    "id": 10,
+    "category": {
+      "id": 4,
+      "label": "Veganos"
+    }
+  },
+  {
+    "title": "Carne ensopada com legumes",
+    "description": "Carne ensopada com legumes e especiarias.",
+    "photo": "/assets/pratos/carne_ensopada.png",
+    "size": 200,
+    "serving": 1,
+    "price": 36.0,
+    "id": 11,
+    "category": {
+      "id": 2,
+      "label": "Carnes"
+    }
+  },
+  {
+    "title": "Lasagna Bolonhesa",
+    "description": "Lasagna Bolonhesa, acompanhada de batatas fritas e salada.",
+    "photo": "/assets/pratos/lasanha_combo.png",
+    "size": 760,
+    "serving": 1,
+    "price": 53.0,
+    "id": 12,
     "category": {
       "id": 3,
       "label": "Combos"
